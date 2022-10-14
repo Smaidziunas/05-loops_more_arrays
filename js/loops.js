@@ -6,7 +6,9 @@ console.log('loops.js');
 // # !jeigu turime apsirase kintamaji paciame loope, tada ji galime modifikuoti nemodifikuojant i :
 
 for (let i = 1; i <= 10; i++) {
+
 let a = i;
+
 if (i === 2) {
 a = "du";
 }
@@ -14,12 +16,13 @@ if (i === 3) {
 a = "trys";
 }
 console.log(a);
+
 }
 
 
 
 // JS Precedence: 
-
+{
 // let num1 = 1;
 
 // let num2 = num1++;
@@ -36,6 +39,6 @@ console.log(a);
 
 
 
-
+}
 
 
