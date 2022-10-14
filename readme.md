@@ -16,8 +16,8 @@
     - Could have any type of value inside :
     - Could have another array inside;
 
--
--
+- ## (<array>.length - 1) - brings the last element of the array!
+- ## (<array>.indexOf()) - brings the index number of an item!
 -
 
 - ### you can select your code with the {} and code is added to a 'Block' thus, could be hidden and also is taken from the global environment so you can use variables with a repeating name.
