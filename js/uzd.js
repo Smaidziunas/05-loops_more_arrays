@@ -78,13 +78,55 @@ for(let i = 44; i <= 66; i++) {
 
 
 
+// 24. Suskaiciuoti kie yra skaiciau 3 kartotiniu nuo 12 iki 57
 
-// for (let i = 1; i <= 10; i++) {
-//   if (i === 2) {
-//   a = "du";
-//   }
-//   if (i === 3) {
-//   a = "trys";
-//   }
-//   console.log(a);
-//   }
+let kartotiniai = 0;
+let kartotiniuSum = 0;
+for(let i = 12; i <= 57; i++) {
+  if(i % 3 === 0) {
+  kartotiniai = kartotiniai + 1;
+  kartotiniuSum = kartotiniuSum + i;
+  // console.log(i);
+  }
+}
+// console.log('kartotiniai ===', kartotiniai);
+// console.log('kartotiniuSum ===', kartotiniuSum);
+
+
+
+// 25. suskaiciuoti koks butu vidurkis skaiciu nuo 45 iki 87
+
+let cikluSk = 0;
+let sum = 0;
+let vidurkis = 0;
+for(let i = 45; i <= 87; i++) {
+sum = sum + i;
+cikluSk = cikluSk +1;
+  if(i === 87) {
+    vidurkis = sum / cikluSk;
+  }
+}
+// console.log('vidurkis ===', vidurkis);
+// console.log('cikluSk ===', cikluSk);
+// console.log('sum ===', sum);
+
+
+
+// 26. sugeneruoti 3 random skaicius nuo 1 iki 10 ir pranesti:
+// a: ar buvo skaicius didesnis uz 7?
+// b: ar buvo skaicius mazesnis uz 3?
+let randomSk = 0;
+
+for(let i = 1; i < 4; i++){
+  let rand = Math.trunc(Math.random() * 10) + 1;
+  randomSk = rand;
+  if (rand > 7 ) {
+    console.log('Yes there was a nb bigger than 7');
+    console.log('random sk lygus===', rand);
+    console.log('ciklos numeris===', i);
+  } else if (rand < 3) {
+    console.log('Yes there was a nb lesser than 3');
+    console.log('random sk lygus===', rand);
+    console.log('ciklos numeris===', i);
+  }
+  }

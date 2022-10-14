@@ -6,9 +6,8 @@
 
 - # loops (for i loop) manipulating i;
 - # ARRAYs;
-
-- object - "key value pairs";
-- Array - "gruped values" grouped by indexes.
-  - index starts with 0;
-  - Could have any type of value inside :
-  - Could have another array inside;
+  - object - "key value pairs";
+  - Array - "gruped values" grouped by indexes.
+    - index starts with 0;
+    - Could have any type of value inside :
+    - Could have another array inside;
